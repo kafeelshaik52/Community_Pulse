@@ -672,4 +672,86 @@ html{
     border:none;
 }
 
+.popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    z-index:9999;
+    justify-content:center;
+    align-items:center;
+}
 
+.popup-content{
+    background:#f6f5f2;
+    width:700px;
+    max-width:90%;
+    padding:40px;
+    border-radius:20px;
+    position:relative;
+}
+
+.close{
+    position:absolute;
+    top:15px;
+    right:25px;
+    font-size:35px;
+    cursor:pointer;
+}
+
+.subtitle{
+    color:gray;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+}
+
+.field{
+    flex:1;
+}
+
+.send-btn{
+    margin-top:30px;
+    background:#eb3d4a;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.row{
+    flex-direction:column;
+}
+
+.popup-content{
+    width:95%;
+    padding:25px;
+}
+
+}
