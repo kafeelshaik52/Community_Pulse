@@ -18,7 +18,7 @@ body{
 .logo img {
     width: 60px;
     height: 60px;
-    border: 1px solid red;
+    border: 1px solid rgb(14, 13, 13);
     border-radius: 50%;
     padding: 2px;
     object-fit: cover;
@@ -52,7 +52,7 @@ nav a{
 
     text-decoration:none;
 
-    color:rgb(25, 6, 238);
+    color:rgb(7, 7, 7);
 }
 
 .menu{
@@ -82,7 +82,7 @@ nav a{
 
     display:inline-block;
 
-    background:#45a1e3e0;
+    background:#deeaf3e0;
 
     padding:12px 28px;
 
@@ -754,4 +754,131 @@ textarea{
     padding:25px;
 }
 
+}
+
+.belief-section{
+    width:80%;
+    margin:100px auto;
+    font-family: Georgia, serif;
+}
+
+.belief-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#e74c5b;
+    letter-spacing:4px;
+    font-size:12px;
+    margin-bottom:30px;
+}
+
+.line{
+    width:30px;
+    height:2px;
+    background:#e74c5b;
+}
+
+.belief-section h1{
+    font-size:70px;
+    font-weight:400;
+    line-height:1.1;
+    margin-bottom:60px;
+}
+
+.belief-item{
+    display:flex;
+    gap:80px;
+    border-top:1px solid #ddd;
+    padding:40px 0;
+}
+
+.number{
+    color:#111010;
+    font-size:28px;
+    min-width:70px;
+}
+
+.content h2{
+    font-size:42px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.content p{
+    font-size:24px;
+    line-height:1.8;
+    color:#444;
+    max-width:900px;
+}
+
+.footer{
+    background: #f7f7f7;
+    padding: 80px 100px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer-about{
+    width: 400px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.logo h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-about p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.footer-links h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: black;
+}
+
+hr{
+    margin-top: 50px;
+    border: none;
+    border-top: 1px solid #ddd;
 }
